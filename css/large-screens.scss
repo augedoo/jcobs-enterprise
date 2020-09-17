@@ -1,0 +1,15 @@
+#main-header {
+  .logo {
+    text-align: center;
+    a {
+      font-size: 1.5rem;
+      white-space: nowrap;
+    }
+  }
+
+  .options {
+    ul li:first-child {
+      margin-right: 0px;
+    }
+  }
+}

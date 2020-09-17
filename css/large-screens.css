@@ -1,0 +1,13 @@
+#main-header .logo {
+  text-align: center;
+}
+
+#main-header .logo a {
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+#main-header .options ul li:first-child {
+  margin-right: 0px;
+}
+/*# sourceMappingURL=large-screens.css.map */

@@ -1,0 +1,38 @@
+@import url("../fonts/apercu/stylesheet.css");
+@import url("../fonts/helvetica-neue/stylesheet.css");
+@import url("https://fonts.googleapis.com/css?family=Gelasio:400,500,600,700&display=swap");
+
+$max-width: 1400px;
+$font-primary: "Apercu Pro", sans-serif;
+$font-secondary: "Helvetica Neue", sans-serif;
+$font-special: "Limelight", cursive;
+$primary: #218896;
+// $primary: #05484d;
+// $secondary: #ffc252;
+$secondary: #ffc252;
+$medium: #edece9;
+$light: #efefef;
+$white: #ffffff;
+$dark: #2c2c2c;
+$dark-lite: #6f7678;
+$black: #000000;
+
+@function setTextColor($background-color) {
+  @if (lightness($background-color) > 50) {
+    @return color($dark);
+  } @else {
+    @return color($white);
+  }
+}
+
+@keyframes arrow-direction-right {
+  to {
+    transform: translateX(10px);
+  }
+}
+
+@keyframes arrow-direction-left {
+  to {
+    transform: translateX(-10px);
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,YADU,CACV,KAAK,CAAC;EACJ,UAAU,EAAE,MAAM;CAKnB;;AAPH,AAGI,YAHQ,CACV,KAAK,CAEH,CAAC,CAAC;EACA,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,MAAM;CACpB;;AANL,AAUI,YAVQ,CASV,QAAQ,CACN,EAAE,CAAC,EAAE,AAAA,YAAY,CAAC;EAChB,YAAY,EAAE,GAAG;CAClB",
+    "sources": [
+        "large-screens.scss"
+    ],
+    "names": [],
+    "file": "large-screens.css"
+}
